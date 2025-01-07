@@ -6,6 +6,8 @@ import { GamesGrid } from '../ui/games-grid';
 import { GameCard } from '../ui/game-card';
 import { GamesPagination } from '../ui/games-pagination';
 
+const PER_PAGE = 10;
+
 export async function CategoryGames({
   page,
   category,
@@ -21,8 +23,8 @@ export async function CategoryGames({
     <GamesLayout
       title={category.title}
       content={(
-        <GamesPagination currentPage={page} totalPages={Math.ceil(category.totalGames / 10)}> 
-          <Suspense key={page} fallback={<GamesGridSkeleton size={10} />}>
+        <GamesPagination currentPage={page} totalPages={Math.ceil(category.totalGames / PER_PAGE)}> 
+          <Suspense key={page} fallback={<GamesGridSkeleton size={PER_PAGE} />}>
             <CategoryGamesContent page={page} />
           </Suspense>
         </GamesPagination>
@@ -32,7 +34,7 @@ export async function CategoryGames({
 }
 
 async function CategoryGamesContent({ page }: { page: number }) {
-  const games = await getCategoryGames({ page, offset: 10 });
+  const games = await getCategoryGames({ page, offset: PER_PAGE });
 
   return (
     <GamesGrid
