@@ -1,0 +1,1 @@
+export { fakeFetch } from './fakeFetch';

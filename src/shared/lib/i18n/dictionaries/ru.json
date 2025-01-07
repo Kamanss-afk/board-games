@@ -1,0 +1,49 @@
+{
+  "HomePage": {
+    "meta_title": "Настольные игры онлайн",
+    "meta_description": "Играть в бесплатные настольные игры онлайн!"
+  },
+  "CategoryPage": {
+    "meta_title": "{title}",
+    "meta_description": "Играть в бесплатные настольные игры онлайн!"
+  },
+  "LoginPage": {
+    "meta_title": "Войти"
+  },
+  "LobbyPage": {
+    "meta_title": "Игровое Лобби"
+  },
+  "LoginForm": {
+    "title": "Войдите в свой аккаунт",
+    "description": "Введите свой адрес электронной почты, чтобы войти в свой аккаунт",
+    "emailLabel": "Почта",
+    "emailPlaceholder": "Ваша Почта",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Ваш Пароль",
+    "submitButton": "Войти"
+  },
+  "Navigation": {
+    "topGames": "Популярные Игры",
+    "newGames": "Новые Игры",
+    "liveGames": "Онлайн Игры",
+    "allGames": "Все Игры"
+  },
+  "GamesFeed": {
+    "featuredGamesHeader": "Популярные Игры",
+    "newGamesHeader": "Новые Игры",
+    "viewAllLink": "Посмотреть Все"
+  },
+  "Footer": {
+    "copyright": "Все права защищены"
+  },
+  "Controls": {
+    "ariaLabelThemeSwitcher": "Переключение между темным и светлым режимом",
+    "ariaLabelLangSwitcher": "Переключение между языками",
+    "ariaLabelLogIn": "Перейти на страницу входа"
+  },
+  "Pagination": {
+    "ariaLabelPagination": "Пагинация",
+    "ariaLabelPaginationNext": "Перейти на следующую страницу",
+    "ariaLabelPaginationPrev": "Перейти на предыдущую страницу"
+  }
+}

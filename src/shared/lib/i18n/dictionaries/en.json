@@ -1,0 +1,49 @@
+{
+  "HomePage": {
+    "meta_title": "Board Games Online",
+    "meta_description": "Play free board games online!"
+  },
+  "CategoryPage": {
+    "meta_title": "{title}",
+    "meta_description": "Play free board games online!"
+  },
+  "LoginPage": {
+    "meta_title": "Login"
+  },
+  "LobbyPage": {
+    "meta_title": "Game Lobby"
+  },
+  "LoginForm": {
+    "title": "Login to your account",
+    "description": "Enter your email below to login to your account",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your Email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Your Password",
+    "submitButton": "Login"
+  },
+  "Navigation": {
+    "topGames": "Top Games",
+    "newGames": "New Games",
+    "liveGames": "Live Games",
+    "allGames": "All Games"
+  },
+  "GamesFeed": {
+    "featuredGamesHeader": "Featured Games",
+    "newGamesHeader": "New Games",
+    "viewAllLink": "View All"
+  },
+  "Footer": {
+    "copyright": "All rights reserved"
+  },
+  "Controls": {
+    "ariaLabelThemeSwitcher": "Switching between dark and light mode",
+    "ariaLabelLangSwitcher": "Switching between languages",
+    "ariaLabelLogIn": "Go to login page"
+  },
+  "Pagination": {
+    "ariaLabelPagination": "Pagination",
+    "ariaLabelPaginationNext": "Go to next page",
+    "ariaLabelPaginationPrev": "Go to previous page"
+  }
+}
