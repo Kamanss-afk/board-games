@@ -21,7 +21,7 @@ export function GameCard({
           loading='lazy'
           src={image}
           alt={name}
-          className='group-hover:scale-110 transition-all duration-300'
+          className='group-hover:scale-110 transition-transform duration-300 transform-gpu'
         />
         <CardLabel>{label}</CardLabel>
         <CardButton />
@@ -38,7 +38,7 @@ export function GameCard({
 
 function CardButton() {
   return(
-    <div className="absolute z-[2] top-1/2 left-1/2 translate-x-[-50%] translate-y-[-65%] opacity-0 group-hover:opacity-100 transition-all duration-300 w-[30%] hover:scale-125">
+    <div className="absolute z-[1] w-[30%] top-1/2 left-1/2 translate-x-[-50%] translate-y-[-65%] transition duration-300 group-hover:opacity-100 opacity-0 hover:scale-125">
       <PlayButton />
     </div>
   );
@@ -46,7 +46,7 @@ function CardButton() {
 
 function CardLabel({ children }: { children: React.ReactNode }) {
   return(
-    <Badge className="absolute top-[10px] left-[10px] transition-all duration-300 group-hover:translate-y-[calc(-100%-10px)]">
+    <Badge className="absolute top-[10px] left-[10px] transition-opacity duration-200 group-hover:opacity-0 opacity-100">
       {children}
     </Badge>
   );
@@ -54,7 +54,7 @@ function CardLabel({ children }: { children: React.ReactNode }) {
 
 function CardOverlay({ children }: { children: React.ReactNode }) {
   return(
-    <div className="absolute size-full bottom-0 transition-all duration-300 group-hover:translate-y-0 translate-y-full bg-primary/90">
+    <div className="absolute size-full bottom-0 transition duration-300 group-hover:translate-y-0 translate-y-full group-hover:opacity-100 opacity-0 bg-primary/90">
       {children}
     </div>
   );
