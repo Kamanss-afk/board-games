@@ -15,7 +15,7 @@ export async function Header() {
   });
 
   return(
-    <header className="sticky top-0 z-[1] bg-inherit border-b">
+    <header className="sticky top-0 z-[999] bg-inherit border-b">
       <div className="flex justify-between items-center py-3 container">
         <Link
           href={paths.home.getHref()}
