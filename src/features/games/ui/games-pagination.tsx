@@ -11,7 +11,7 @@ import {
   PaginationEllipsis,
 } from '@/shared/ui/pagination';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { PaginationItemType, PaginationItemValue, getPaginationRange } from '../lib/get-pagination-range';
+import { getPaginationRange, PaginationItemType, PaginationItemValue } from '../lib/pagination';
 import { cn } from '@/shared/lib/css';
 import { useTranslations } from 'next-intl';
 
